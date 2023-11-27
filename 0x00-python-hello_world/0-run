@@ -1,6 +1,2 @@
 #!/bin/bash
-
-# This shell script runs the main.py Python script
-
-# Run the Python script
-python ./$PYFILE
+python "$PYFILE"

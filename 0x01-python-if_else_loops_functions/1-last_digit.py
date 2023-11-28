@@ -6,9 +6,9 @@ number = random.randint(-10000, 10000)
 print("Last digit of", number, "is", end=" ")
 
 if number < 0:
-    last = number % -10
+    last_digit = number % -10
 else:
-    last = number % 10
+    last_digit = number % 10
 
 print(last_digit, end=" ")
 
